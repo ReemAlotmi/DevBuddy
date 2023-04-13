@@ -13,10 +13,10 @@ https://user-images.githubusercontent.com/80950031/209181602-4afaed80-6290-43d7-
 ## When
 13/9/2022 until 2/11/2022
 
- Who?
+##  Who?
 **Authors**
 * [ReemAlotmi (Me)](https://github.com/ReemAlotmi)
-* [Munira Alduraibi] (https://github.com/MuniraKhaled)
+* [Munira Alduraibi](https://github.com/MuniraKhaled)
 * [Shahad Abukozzanah](https://www.linkedin.com/in/shahad-mohammed-2817b0217)
 * [Areej Almisfer]()
 * [Najlaa Alnabati]()
