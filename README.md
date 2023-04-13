@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/80950031/209181602-4afaed80-6290-43d7-
 
 ## Who
 **Authors**
-* [ReemAlotmi (Me)](https://github.com/ReemAlotmi)
+* [Reem Alotmi (Me)](https://github.com/ReemAlotmi)
 * [Munira Alduraibi](https://github.com/MuniraKhaled)
 * [Shahad Abukozzanah](https://www.linkedin.com/in/shahad-mohammed-2817b0217)
 * [Areej Almisfer]()
