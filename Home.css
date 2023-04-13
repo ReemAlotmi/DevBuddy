@@ -1,0 +1,210 @@
+
+
+/*
+color plette 
+beige : #F2E1DC
+white : #ffffff
+cyan : #B7E0DE
+blue : #6294F7
+pink : #FEA6A6
+white 2 : #F2F2F2
+Yellow : #FDDC9C
+purple : #A3A0FA
+black : #232323
+*/
+
+body{
+font-family: monospace !important; 
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 100%;
+  height: 80vh; 
+  text-align: center;
+}
+
+.section h1{
+ padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.section h3{
+ padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+#welcome-section{
+  background: #F2E1DC;
+    width: 100%;
+    flex-direction: column;
+}
+
+#welcome-section span{
+ color :  #6294F7;
+ border-bottom: 0.2rem solid #232323;
+}
+
+.search-box {
+  width: 65%;
+  display: flex;
+  padding-left: 100px;
+  margin: 50px 0 20px;
+}
+.search-box img {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+.search-box input {
+  width: 100%;
+  margin-left: 15px;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 0.1rem solid #A3A0FA;
+  outline: none;
+  background-color: #F2E1DC;
+  
+}
+
+
+#mainPic{
+  width : 15%;
+ 
+}
+
+#mainPic:hover{
+  width : 17%;
+ 
+}
+
+
+.Pic{
+   width : 35%;
+}
+
+.Pic:hover {
+  width : 37%;
+
+}
+
+
+#HTML{
+  background: #A3A0FA ;
+    width: 100%;
+}
+
+#HTML div{
+  display: flex;
+  flex-direction: column;
+  width: 50٪;
+}
+
+
+#btn-list {
+ list-style: none;
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+
+
+
+  }
+
+#btn-list li {
+   margin: 1rem 1rem 1rem 1rem;
+    
+}
+#btn-list a {
+       font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    margin: 1rem 1rem 1rem 1rem;
+    font-weight: bold;
+    color: #232323;
+}
+
+
+#htmlBtn1{
+    color: #F2F2F2;
+  background: #FDDC9C;
+}
+
+#htmlBtn2{
+    color: #F2F2F2;
+  background: #FDDC9C;
+}
+
+
+#HTML h1{
+  font-size: 60px;
+}
+
+
+/* ================================ */
+
+
+#CSS{
+  background: #FDDC9C ;
+    width: 100%;
+}
+
+#CSS div{
+  display: flex;
+  flex-direction: column;
+  width: 50٪;
+}
+
+
+
+#cssBtn1{
+    color: #F2F2F2;
+  background: #6294F7;
+}
+
+#cssBtn2{
+    color: #F2F2F2;
+  background: #6294F7;
+}
+
+
+#CSS h1{
+  font-size: 60px;
+}
+
+/* ================================ */
+
+#JavaScript{
+  background: #F2E1DC ;
+    width: 100%;
+}
+
+#JavaScript div{
+  display: flex;
+  flex-direction: column;
+  width: 50٪;
+}
+
+
+#JavaScript #btn-list a {
+   color: #F2F2F2;
+  background: #232323;
+}
+
+
+
+#CSS h1{
+  font-size: 60px;
+}
+
+
+
+
+
+
+

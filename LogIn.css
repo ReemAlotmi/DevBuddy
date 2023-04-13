@@ -1,0 +1,121 @@
+
+
+/*
+color plette 
+beige : #F2E1DC
+white : #ffffff
+cyan : #B7E0DE
+blue : #6294F7
+pink : #FEA6A6
+white 2 : #F2F2F2
+Yellow : #FDDC9C
+purple : #A3A0FA
+black : #232323
+*/
+body{
+font-family: monospace;
+}
+
+#form-section{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center ;
+  width: 100%;
+  height: 80vh; 
+background: #F2E1DC;
+
+}
+
+#Login-section{
+ margin: 200px auto 100px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  height: 50%;
+  width: 20%;
+  background: #232323;
+   text-align: center;
+   border-radius: 1em;
+
+
+  }
+
+  #ContactUs-section{
+    margin: 200px auto 100px;
+     padding: 30px;
+     text-align: center;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+     width: 30%;
+     height: 60%;
+     background: #232323;
+      text-align: center;
+      border-radius: 1em;
+   
+   
+     }
+
+  textarea,
+  .login-form input{
+  background: #f2f2f2;
+  width: 60%;
+  border-radius: 1em;
+  margin: 0 0 15px;
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 1em;
+  }
+
+  .login-form button{
+  outline: 0;
+  background: #A3A0FA;
+  width: 30%;
+  padding: 15px;
+  border-radius: 3em;
+  color: #232323;
+  font-size: 1.2em;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  }
+
+  .login-form button:hover{
+    background:  #827ef0
+  }
+
+
+
+
+.message {
+  color: #b3b3b3;
+  font-size: 1em;
+}
+.message a {
+  color: #A3A0FA;
+  text-decoration: none;
+}
+
+.message a:hover {
+  color: #57559b;
+}
+
+.passlabel,
+.namelabel {
+  color: white;
+  font-size: 0.90em;
+  text-align: left;
+  padding-left: 4.7em;
+  margin-bottom: 0.50em;
+}
+
+input.contactName{
+  display: inline-block;
+  width: 30%;
+}
+
+
+
+

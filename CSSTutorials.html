@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Tutorials.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+     <style> td,th{
+    font-size: 15px;
+    border: 2px solid #A3A0FA;
+    border-radius: 2px;
+    padding: 8px;
+  } 
+
+table {
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 1.5em;
+    min-width: 600px;
+    background-color: #F2F2F2;
+    border: 2px solid #A3A0FA;  
+  }
+  .ex5{
+    background-color: #F2F2F2;
+    border-radius:15px ;
+    margin: 20px;
+  }
+  .hint{
+    background-color: #F2E1DC;
+    padding: 10px;
+  }
+  .ex5 p{
+color: #6294F7;
+font-weight:bold ;
+ margin: 20px;
+  }
+  .ex5 h2{
+    margin: 20px;
+  }
+  .ex5 img{
+        margin-left: 20px;
+
+  }
+  .bold{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6294F7;
+    font-weight: bold ;
+  }
+
+</style>
+    <title>HTML Tutorials</title>
+  </head>
+  <body>
+
+        <!-- ====== nav bar ====== -->
+        <nav id="navbar">
+          <a href="Home.html"><img src="images/DevBuddy.png" class="logo" /></a>
+    
+          <!-- left list in nav bar-->
+          <ul class="list-design">
+            <li>
+              <div class="dropdown">
+                <a>Tutorials ⬇️ </a>
+                <div class="dropdown-content">
+                  <a href="HtmlTutorials.html">HTML </a>
+                  <a href="CSSTutorials.html">CSS </a>
+                  <a href="JavaScriptTutorials.html">javaScript </a>
+                </div>
+              </div>
+            </li>
+    
+            <li>
+              <div class="dropdown">
+                <a>Exercises ⬇️ </a>
+                <div class="dropdown-content">
+                  <a href="HtmlExe.html">HTML </a>
+                  <a href="CssExe.html">CSS </a>
+                  <a href="JavaScriptExe.html">javaScript </a>
+                </div>
+              </div>
+            </li>
+    
+            <li>
+              <a href="ContactUs.html">CONTACT US</a>
+            </li>
+          </ul>
+    
+          <!-- Right list in nav bar-->
+          <ul class="list-design" id="right-nav-list">
+            <li>
+              <a id="Login" href="LogIn.html">
+                <img src="images/user.png" /> Log in</a
+              >
+            </li>
+            <li>
+              <a id="go-pro" href="goPro.html">Go pro </a>
+            </li>
+          </ul>
+        </nav>
+
+    <div class="sidebar">
+      <a class="active" href="#CSS">CSS Tutorial</a>
+      <a class="sub1" href="#intro"> CSS Intro </a>
+      <a class="sub2" href="#Syntax"> CSS Syntax </a>
+      <a class="sub3" href="#Selector"> CSS Selector </a>
+      <a class="sub4" href="#How"> CSS How to </a>
+      <a class="sub5" href="#Colors"> CSS Colors </a>
+      <h2>Test your CSS skills with our quiz </h2>
+      <p>
+        <a href="CssExe.html">Start CSS quiz!  </a>
+      </p>
+    </div>
+
+
+
+    <div id="CSS" class="content">
+      <br>
+      <h2>CSS Introduction</h2>
+      <div class="color1" id="intro">
+        <h3>What is CSS?</h3>
+        <ul>
+          <li>CSS stands for Hyper Text Markup Language</li>
+          <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+          <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+          <li>External stylesheets are stored in CSS files</li>
+        </ul>
+        <p>it used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+       <br>
+       <h3> - CSS Solved a Big Problem</h3>
+        <p> 
+HTML was NEVER intended to contain tags for formatting a web page!
+HTML was created to describe the content of a web page, like:
+<br>
+<code>
+&lt;h1> This is a heading &lt;/h1>
+</code>
+<br>
+<code>
+&lt;p>This is a paragraph.&lt;/p>
+</code>
+<br>
+When tags like &lt;font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.</p>
+        <p class =hint >    If you don't know what HTML is, we suggest that you read our<a href="HtmlTutorials.html"> HTML Tutorial.</a></p>
+      </div>
+
+      <h2>CSS Syntax</h2>
+      <div class="color1" id="Syntax">
+        <h3>A style rule is made of three parts </h3>
+        <ul>
+          <li><span class ="bold"> Selector </span> A selector is an HTML tag at which a style will be applied. This could be any tag like 
+            <span class ="code"> &lt;h1> </span> or <span class ="code"> &lt;table> </span> etc.</li>
+          <li><span class ="bold"> Property </span>  A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</li>
+          <li><span class ="bold"> Value </span> Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li>
+        </ul>
+
+        <img src="images/syntax.png" class ="ex5">
+
+      <h5 class="bold">Explained<h5>
+        <ul>
+       <li><span class ="code"> p </span>is a selector in CSS (it points to the HTML element you want to style: <span class ="code"> &lt;p></span> ).</li>   
+      <li><span class ="code">color </span> is a property, and <span class ="code"> blue </span> is the property value
+      text-align is a property, and center is the property value</li>
+
+        </ul>
+    
+      </div>
+
+
+      <h2>CSS Selector</h2>
+      <div class="color1" id="Selector">
+        
+      <p>
+          CSS Selectors are used to "find" (or select) the HTML elements you want to style.
+
+        We can divide CSS selectors into five categories: </p>
+        <ul>
+        <li>Simple selectors (select elements based on name, id, class)</li>
+        <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+        <li>Pseudo-class selectors (select elements based on a certain state)</li>
+        <li>Pseudo-elements selectors (select and style a part of an element)</li>
+        <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+<br>
+        <h3>All CSS Simple Selectors</h3>
+
+<table>
+  <tr>
+    <th>Selector   </th>
+    <th>  Example     </th>
+    <th>&ensp; Example description</th>
+  </tr>
+  <tr>
+    <td>#id</td>
+    <td>#firstname &ensp; </td>
+    <td>Selects the element with id="firstname"</td>
+  </tr>
+  <tr>
+     <td>class</a></td>
+    <td >.intro</td>
+    <td>Selects all elements with class=&quot;intro&quot;</td>
+  </tr>
+  <tr>
+    <td>element.class</a></em></td>
+    <td >p.intro</td>
+    <td>Selects only &lt;p&gt; elements with class=&quot;intro&quot;</td>
+  </tr>
+  <tr>
+     <td>*</td>
+    <td>*</td>
+    <td>Selects all elements</td>
+  </tr>
+  <tr>
+    <td>element</td>
+    <td >p</td>
+    <td>Selects all &lt;p&gt; elements</td>
+  </tr>
+  <tr>
+    <td>element,element,..</td>
+    <td >div, p</td>
+    <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+  </tr>
+</table>
+     
+      </div>
+
+
+      <h2>CSS How to</h2>
+      <div class="color1" id="How">
+        <h4>There are three ways of inserting a style sheet:</h4>
+        <ul>
+          
+          <li>External CSS</li>
+          <li>Internal CSS</li>
+          <li>Inline CSS</li>
+
+        </ul>
+        <table>
+         <tr>
+            <th>External</th>
+            <th>Embedded</th>
+            <th>Inline  </th>
+          </tr>
+
+          <tr>
+        <td> change the look of an entire website by changing just one file!
+        Each HTML page must include a reference to the external style sheet file inside the link element, inside the head section.
+         </td>
+
+         <td> may be used if one single HTML page has a unique style.
+          The Embedded style is defined inside the &lt;style> element, inside the head section.</td>
+
+        <td>  may be used to apply a unique style for a single element.
+        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</td>
+
+          </tr>
+
+      </table>
+
+
+      <div class="ex5">
+      <h3> Exambles</h3>
+        <p>External</p>
+        <img src="images/style1.png" width="550" height="100">
+        <p>Embedded</p> 
+        <img src="images/style3.png" width="530" height="140">
+        <p>Inline</p>
+        <img src="images/style2.png" width="560" height="100">
+  </div>
+
+            </div>
+
+      <h2>CSS Colors</h2>
+      <div class="color1" id="Colors">
+        In CSS, colors can also be specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+        You can set the color for text,background and border. 
+      
+      <div class="ex5">
+      <h3"> Exambles</h3>
+        <p>TEXT</p>
+        <img src="images/color1.png" width="550" height="70">
+        <p>BACKGROND</p> 
+        <img src="images/color2.png" width="550" height="80">
+        <p>BORDER</p>
+        <img src="images/color3.png" width="550" height="80">
+  </div>
+   <p> - You can color in different ways using Names, RGB, HEX, etc, as in the next examples. </p>
+    <img src="images/color4.png" width="550" height="120">
+    <br><br><br><br>
+</div> 
+
+
+    <!-- ====== footer section ====== -->
+    <footer>
+      <div id="contact">
+          <h1>Contact us</h1>
+        <address><br />makkah, alzahar<br /></address>
+        <a id="email" href="mailto:mkd1433@gmail.com">Email Us</a>
+      </div>
+
+      <dev class="about">
+        <p>
+          The DevBuddy website is a learning platform for web developers to
+          <br />
+          learn web-based programming languages. like: HTML, CSS, and <br />
+          JavaScript.<br />© Created with love ❤️
+        </p>
+      </dev>
+
+      <div id="website-content">
+        <ul class="list1">
+          <li>Toutorials</li>
+          <li>Html Tutorial</li>
+          <li>CSS Tutorial</li>
+          <li>JavaScript Tutorial</li>
+        </ul>
+
+        <ul class="list2">
+          <li>Exercises</li>
+          <li>Html Exercises</li>
+          <li>CSS Exercises</li>
+          <li>JavaScript Exercises</li>
+        </ul>
+
+        <ul class="list3">
+          <li>Go Pro</li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <a href="#" title="go facebook page"
+          ><img src="images/facebook2.png"
+        /></a>
+        <a href="#" title="go twitter page"
+          ><img src="images/twitter2.png"
+        /></a>
+        <a href="#" title="go instagram page"
+          ><img src="images/instagram2.png"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

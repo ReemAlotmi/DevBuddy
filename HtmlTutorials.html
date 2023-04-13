@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Tutorials.css" />
+    <style>
+      .example {
+        background-color: #e7e9eb;
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin: 20px -20px;
+      }
+      table,
+      th,
+      td {
+        border: 2px solid #fddc9c;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th {
+        height: 50px;
+      }
+      table {
+        width: 50%;
+      }
+    </style>
+    <title>HTML Tutorials</title>
+  </head>
+  <body>
+    <!-- ====== nav bar ====== -->
+    <nav id="navbar">
+      <a href="Home.html"><img src="images/DevBuddy.png" class="logo" /></a>
+
+      <!-- left list in nav bar-->
+      <ul class="list-design">
+        <li>
+          <div class="dropdown">
+            <a>Tutorials ⬇️ </a>
+            <div class="dropdown-content">
+              <a href="HtmlTutorials.html">HTML </a>
+              <a href="CSSTutorials.html">CSS </a>
+              <a href="JavaScriptTutorials.html">javaScript </a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <a>Exercises ⬇️ </a>
+            <div class="dropdown-content">
+              <a href="HtmlExe.html">HTML </a>
+              <a href="CssExe.html">CSS </a>
+              <a href="JavaScriptExe.html">javaScript </a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <a href="ContactUs.html">CONTACT US</a>
+        </li>
+      </ul>
+
+      <!-- Right list in nav bar-->
+      <ul class="list-design" id="right-nav-list">
+        <li>
+          <a id="Login" href="LogIn.html">
+            <img src="images/user.png" /> Log in</a
+          >
+        </li>
+        <li>
+          <a id="go-pro" href="goPro.html">Go pro </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sidebar">
+      <a class="active" href="#html">HTML Tutorial</a>
+      <a class="sub1" href="#html-intro"> HTML Introduction </a>
+      <a class="sub2" href="#html-basic"> HTML Basic </a>
+      <a class="sub3" href="#html-ele"> HTML Elements </a>
+      <a class="sub4" href="#html-att"> HTML Attributes </a>
+      <a class="sub5" href="#html-hea"> HTML Headings </a>
+      <h2>Test your HTML skills with our HTML Quiz!</h2>
+      <p>
+        <a href="HtmlExe.html">Start HTML quiz!</a>
+      </p>
+    </div>
+
+    <div id="html" class="content">
+      <h2 id="html-intro">HTML Introduction</h2>
+      <div class="color1">
+        <p>HTML is the standard markup language for creating Web pages.</p>
+        <hr />
+        <h3>What is HTML?</h3>
+        <ul>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>
+            HTML elements label pieces of content such as "this is a heading",
+            "this is a paragraph", "this is a link", etc.
+          </li>
+        </ul>
+        <hr />
+        <h3>A Simple HTML Document</h3>
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img1.jpg"
+            width="570"
+            height="290"
+            alt="HTML code"
+          />
+        </div>
+
+        <hr />
+        <h3>which is HTML Element in the Code?</h3>
+        <ul>
+          <li>
+            The
+            <code class="code">&lt;!DOCTYPE html&gt;</code> declaration defines
+            that this document is an HTML5 document
+          </li>
+          <li>
+            The <code class="code">&lt;html&gt;</code> element is the root
+            element of an HTML page
+          </li>
+          <li>
+            The <code class="code">&lt;head&gt;</code> element contains meta
+            information about the HTML page
+          </li>
+          <li>
+            The <code class="code">&lt;title&gt;</code> element specifies a
+            title for the HTML page (which is shown in the browser's title bar
+            or in the page's tab)
+          </li>
+          <li>
+            The <code class="code">&lt;body&gt;</code> element defines the
+            document's body, and is a container for all the visible contents,
+            such as headings, paragraphs, images, hyperlinks, tables, lists,
+            etc.
+          </li>
+          <li>
+            The <code class="code">&lt;h1&gt;</code> element defines a large
+            heading
+          </li>
+          <li>
+            The <code class="code">&lt;p&gt;</code> element defines a paragraph
+          </li>
+        </ul>
+
+        <hr />
+        <h3>What is an HTML Element?</h3>
+        <p>
+          An HTML element is defined by a start tag, some content, and an end
+          tag:
+        </p>
+        <table class="table1">
+          <th>Start Tag</th>
+          <th>Element Content</th>
+          <th>End Tag</th>
+
+          <tbody>
+            <tr>
+              <td>&lt;h1></td>
+              <td>My First Heading</td>
+              <td>&lt;/h1></td>
+            </tr>
+            <tr>
+              <td>&lt;p></td>
+              <td>My First paragraph</td>
+              <td>&lt;/p></td>
+            </tr>
+            <tr>
+              <td>&lt;br> (void)</td>
+              <td>None</td>
+              <td>None</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="notes">
+          <b>Note:</b> Some HTML elements have no content (like the element
+          &lt;/p>). These elements are called empty elements. Empty elements
+          <b>do not </b> have an end tag!
+        </p>
+        <hr />
+
+        <h3>HTML Page Structure</h3>
+        <img
+          src="images/img2.jpg"
+          width="490"
+          height="400"
+          alt="Imag strcture of HTML"
+        />
+      </div>
+
+      <hr />
+
+      <h2 id="html-basic">HTML Basic</h2>
+      <div class="color1">
+        <h3>HTML Documents</h3>
+        <p>
+          All HTML documents must start with a document type declaration:
+          <span class="code"><small>&lt;!DOCTYPE html></small></span
+          >.
+        </p>
+        <p>
+          The HTML document itself begins with
+          <span class="code"> <small>&lt;html></small></span> and ends with<span
+            class="code"
+          >
+            <small>&lt;/html></small></span
+          >.
+        </p>
+        <p>
+          The visible part of the HTML document is between
+          <span class="code"><small>&lt;body></small></span> and<span
+            class="code"
+          >
+            <small>&lt;/body></small></span
+          >.
+        </p>
+
+        <hr />
+
+        <h3>The &lt;!DOCTYPE> Declaration</h3>
+        <p>
+          The <span class="code"><small>&lt;!DOCTYPE></small></span> declaration
+          represents the document type, and helps browsers to display web pages
+          correctly.
+        </p>
+        <p>
+          It must only appear once, at the top of the page (before any HTML
+          tags).
+        </p>
+        <p>
+          The <span class="code"><small>&lt;!DOCTYPE></small> </span>declaration
+          is not case sensitive.
+        </p>
+        <hr />
+
+        <h3>HTML Headings</h3>
+        <p>
+          HTML headings are defined with the
+          <span class="code"><small>&lt;h1></small></span> to<span class="code"
+            ><small> &lt;h6></small></span
+          >
+          tags.
+        </p>
+        <p>
+          <span class="code"><small> &lt;h1></small></span> defines the most
+          important heading.
+          <span class="code"><small>&lt;h6> </small></span>defines the least
+          important heading
+        </p>
+        <hr />
+
+        <h3>HTML Paragraphs</h3>
+        <p>
+          HTML paragraphs are defined with the
+          <span class="code"><small>&lt;p></small></span> tag
+        </p>
+        <hr />
+
+        <h3>HTML Links</h3>
+        <p>
+          HTML links are defined with the
+          <span class="code"><small>&lt;a></small></span> tag
+        </p>
+        <p>
+          The link's destination is specified in the
+          <span class="code">href</span> attribute.
+        </p>
+        <hr />
+        <h3>HTML Images</h3>
+        <p>
+          HTML images are defined with the
+          <span class="code"><small>&lt;img></small></span> tag.
+        </p>
+
+        <hr />
+        <p class="notes">
+          <b>Note: </b>Attributes are used to provide additional information
+          about HTML elements.
+        </p>
+      </div>
+
+      <hr />
+
+      <h2 id="html-ele">HTML Elements</h2>
+      <div class="color1">
+        <p>
+          An HTML element is defined by a start tag, some content, and an end
+          tag.
+        </p>
+
+        <hr />
+
+        <h3>HTML Elements</h3>
+        <p>The HTML element is everything from the start tag to the end tag:</p>
+        <p>
+          HTML elements can be nested (this means that elements can containother
+          elements).
+        </p>
+        <p>All HTML documents consist of nested HTML elements.</p>
+        <p>
+          The following example contains four HTML elements (<span class="code"
+            ><small>&lt;html>, &lt;body>, &lt;h1> and &lt;p></small></span
+          >)
+        </p>
+
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img3.jpg"
+            width="590"
+            height="280"
+            alt="HTML code"
+          />
+        </div>
+
+        <p>
+          The <span class="code"><small>&lt;html></small></span> element is the
+          root element and it defines the whole HTML document.
+        </p>
+        <p>
+          It has a start tag
+          <span class="code"> <small>&lt;html></small> </span> and an end tag
+          <span class="code"> <small>&lt;/html></small> </span>.
+        </p>
+        <p>
+          Then, inside the
+          <span class="code"><small>&lt;html></small></span> element there is a
+          <span class="code"><small>&lt;body></small></span> element
+        </p>
+        <p>
+          The <span class="code"><small>&lt;body></small></span> element defines
+          the document's body.
+        </p>
+        <p>
+          It has a start tag
+          <span class="code"><small>&lt;body></small></span> and an end tag
+          <span class="code"><small>&lt;/body></small></span
+          >.
+        </p>
+        <p>
+          Then, inside the
+          <span class="code"><small>&lt;body></small></span> element there are
+          two other elements:
+          <span class="code"><small>&lt;h1></small></span> and
+          <span class="code"><small>&lt;p></small></span>
+        </p>
+
+        <hr />
+        <h3>HTML is Not Case Sensitive</h3>
+        <p>
+          HTML tags are not case sensitive:
+          <span class="code"><small>&lt;P></small></span> means the same as
+          <span class="code"><small>&lt;p></small></span
+          >.
+        </p>
+        <hr />
+
+        <h3>HTML Tag Reference</h3>
+
+        <table class="table1">
+          <th>Tag</th>
+          <th>Description</th>
+
+          <tbody>
+            <tr>
+              <td>&lt;!DOCTYPE></td>
+              <td>Defines the document type</td>
+            </tr>
+            <tr>
+              <td>&lt;!--...--></td>
+              <td>Defines a comment</td>
+            </tr>
+            <tr>
+              <td>&lt;html></td>
+              <td>Defines the root of an HTML document</td>
+            </tr>
+            <tr>
+              <td>&lt;body></td>
+              <td>Defines the document's body</td>
+            </tr>
+            <tr>
+              <td>&lt;h1> to &lt;h6></td>
+              <td>Defines HTML headings</td>
+            </tr>
+            <tr>
+              <td>&lt;a></td>
+              <td>Defines a hyperlink</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="notes">
+          <b>Note:</b> Never Skip the End Tag Some HTML elements will display
+          correctly, even if you forget the end tag However, never rely on this!
+          Unexpected results and errors may occur if you forget the end tag!
+        </p>
+      </div>
+
+      <hr />
+
+      <h2 id="html-att">HTML Attributes</h2>
+      <div class="color1">
+        <p>
+          HTML attributes provide additional information about HTML elements.
+        </p>
+
+        <hr />
+        <h3>HTML Attributes</h3>
+        <ul>
+          <li>All HTML elements can have <b>attributes</b></li>
+          <li>
+            Attributes provide <b>additional information </b>about elements
+          </li>
+          <li>Attributes are always specified in <b>the start tag</b></li>
+          <li>
+            Attributes usually come in name/value pairs like:
+            <b>name="value"</b>
+          </li>
+        </ul>
+        <hr />
+        <h3>The href Attribute</h3>
+        <p>
+          The <span class="code"><small>&lt;P></small></span> means the same as
+          <span class="code"><small>&lt;a></small></span
+          >tag defines a hyperlink. The href attribute specifies the URL of the
+          page the link goes to
+        </p>
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img4.jpg"
+            width="550"
+            height="40"
+            alt="HTML code"
+          />
+        </div>
+        <hr />
+
+        <h3>The src Attribute</h3>
+        <p>
+          The <span class="code"><small>&lt;P></small></span> means the same as
+          <span class="code"><small>&lt;img></small></span> tag is used to embed
+          an image in an HTML page. The src attribute specifies the path to the
+          image to be displayed
+        </p>
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img5.jpg"
+            width="550"
+            height="40"
+            alt="HTML code"
+          />
+        </div>
+        <p>There are two ways to specify the URL in the src attribute:</p>
+        <p>
+          <b>1. Absolute URL </b>- Links to an external image that is hosted on
+          another website. Example:
+          src="https://www.w3schools.com/images/img_girl.jpg".
+        </p>
+        <p>
+          <b>2. Relative URL</b> - Links to an image that is hosted within the
+          website. Here, the URL does not include the domain name. If the URL
+          begins without a slash, it will be relative to the current page.
+          Example: src="img_girl.jpg". If the URL begins with a slash, it will
+          be relative to the domain. Example: src="/images/img_girl.jpg".
+        </p>
+
+        <hr />
+
+        <h3>The width and height Attributes</h3>
+        <p>
+          The <span class="code"><small>&lt;P></small></span> means the same as
+          <span class="code"><small>&lt;img></small></span> tag should also
+          contain the width and height attributes, which specify the width and
+          height of the image (in pixels)
+        </p>
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img6.jpg"
+            width="590"
+            height="50"
+            alt="HTML code"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 id="html-hea">HTML Headings</h2>
+      <div class="color1">
+        <p>
+          HTML headings are titles or subtitles that you want to display on a
+          webpage.
+        </p>
+
+        <hr />
+        <div class="example">
+          <h4>Example</h4>
+          <img
+            class="htmlCode"
+            src="images/img7.jpg"
+            width="490"
+            height="350"
+            alt="HTML code"
+          />
+        </div>
+      </div>
+
+      <!-- ====== footer section ====== -->
+      <footer>
+        <div id="contact">
+          <h1>Contact us</h1>
+          <address><br />makkah, alzahar<br /></address>
+          <a id="email" href="mailto:mkd1433@gmail.com">Email Us</a>
+        </div>
+
+        <dev class="about">
+          <p>
+            The DevBuddy website is a learning platform for web developers to
+            <br />
+            learn web-based programming languages. like: HTML, CSS, and <br />
+            JavaScript.<br />© Created with love ❤️
+          </p>
+        </dev>
+
+        <div id="website-content">
+          <ul class="list1">
+            <li>Toutorials</li>
+            <li>Html Tutorial</li>
+            <li>CSS Tutorial</li>
+            <li>JavaScript Tutorial</li>
+          </ul>
+
+          <ul class="list2">
+            <li>Exercises</li>
+            <li>Html Exercises</li>
+            <li>CSS Exercises</li>
+            <li>JavaScript Exercises</li>
+          </ul>
+
+          <ul class="list3">
+            <li>Go Pro</li>
+          </ul>
+        </div>
+
+        <div class="social-media">
+          <a href="#" title="go facebook page"
+            ><img src="images/facebook2.png"
+          /></a>
+          <a href="#" title="go twitter page"
+            ><img src="images/twitter2.png"
+          /></a>
+          <a href="#" title="go instagram page"
+            ><img src="images/instagram2.png"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

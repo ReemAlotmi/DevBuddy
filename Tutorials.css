@@ -1,0 +1,349 @@
+
+*{
+    font-family: 'monaco',sans-serif !important;
+}
+body {
+    margin: 0;
+    font-family: cursive,sans-serif;
+    font-size: 100%;
+}
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    background-color: #F2E1DC;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+   
+  .sidebar a.active {
+    background-color: #6294F7;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #A3A0FA;
+    color: white;
+    border-radius: 2em;
+  }
+
+  .sidebar a.sub1,
+  .sidebar a.sub2,
+  .sidebar a.sub3,
+  .sidebar a.sub4,
+  .sidebar a.sub5{
+    font-size: 1.2em;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
+
+    
+    }
+  
+  .content {
+    margin-top: -50em;
+    margin-left: 11em;
+    padding: 1em 6em;
+    height: 1000px;
+
+  }
+
+  .content div{
+    color: #000000;
+    font-size:1.25em ;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    }
+
+    .content h2 {
+      color: #A3A0FA;
+      margin-left: -30px;
+      font-size: 2.1867em;
+      text-indent: 4%;
+      -webkit-text-stroke:1px #827ef0;
+    }
+
+    .color1{
+      background-color: #fef7f2;
+      padding: 50px;
+      margin: 2%;
+    }
+
+    .notes {
+      background-color: #e7e9eb;
+      padding: 6px;
+    }
+
+    .sidebar h2 {
+      font-size: 1.2em;
+      color: black;
+      padding: 60px 13px 1px 10px;
+      text-align: center;
+    }
+
+    .sidebar p{
+      font-size: 1.0625em;
+      font-weight: bold;
+      border-radius: 2em;
+      text-align: center;
+      background-color: #FEA6A6;
+      color: #e7e9eb;
+      cursor: pointer;
+      margin: 1em;
+      margin-top: 2em;
+
+    }
+
+    .code {
+      color: red;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1em;
+    }
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  /* top nav bar */
+
+  .logo {
+    width: 140px;
+    margin-left: -1em;
+    margin-top: -2em;
+    cursor: pointer;
+  }
+  
+  #navbar{
+  background-color: #F2E1DC;  
+  height: 6em;
+  }
+  
+  .list-design{
+    list-style: none;
+    display: flex;
+  position: absolute;
+    }
+  
+  .list-design a {
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 5em;
+      padding: 0.7em 1.5em 0.7em 1.5em;
+      margin: 1em 1em 1em 1em;
+      font-weight: bold;
+      color: #232323;
+    }
+  
+  #navbar ul li {
+      margin-top: -6em; 
+       
+    }
+
+    #navbar ul li:first-child {
+      margin-left: 4em;  
+    }
+  
+    #right-nav-list{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 60.3em;
+
+    }
+  
+    #right-nav-list img{
+      width: 1em;
+    }
+    
+  
+   /* ====== start of drop down menu ====== */
+  /* the below drop down menu source code is : https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F2F2F2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    display: block;
+    text-align: left;
+     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  }
+   
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   /* ====== end of drop down mene ====== */
+  
+  
+  
+  #Login{
+    color: #F2F2F2;
+    background: #232323;
+  }
+  
+  #go-pro{
+      color: #F2F2F2;
+      background: #232323;
+  }
+  
+  a:hover{
+    color: #A3A0FA;
+  }
+  
+  #right-nav-list a:hover{
+      background: #A3A0FA;
+      color : #232323;
+  }
+   /* ====== End of nav bar ====== */
+    
+  
+  
+/* ====== footer section ======  */
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 5em 1em 5em;
+  color: #ffffff;
+  background-color: #232323;
+  font-size: 0.89em;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#contact{
+  color: white;
+  margin-top: 2em;
+  font-size: 1em;
+
+
+}
+
+
+
+#website-content ul{
+     padding: 5em 1.5em 0.7em 10.6em;
+     line-height: 2.2em;
+     color: white;
+     display: inline;
+
+
+}
+
+
+#email{
+  display: inline-block;
+  margin: 2em 0 2em 0 ;
+  padding: 0.7em 1.5em 0.7em 1.5em;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 25px;
+  color: #232323;
+  background: #ffffff;
+ font-weight: bolder;
+}
+
+#email:hover{
+    background: #A3A0FA;
+    color : #232323;
+}
+.about {
+  color: #f6f6f6;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 2.2em;
+  margin-left: 7em;
+  margin-right: 10em;
+  margin-top: 2em;
+
+
+}
+.social-media {
+  margin-top: -10em;
+  margin-left: 24em;
+}
+
+
+.social-media img {
+height: 40px;
+margin: 0 0.6em;
+
+}
+
+.list1,
+.list2,
+.list3{
+  list-style: none;
+  display: inline-block;
+  margin-left: -15.9em;
+justify-content: left;
+
+  }
+
+
+
+  .list1 li:first-child,
+  .list2 li:first-child {
+    font-size: 1.6em;
+    padding-bottom: 0.6em;
+
+  }
+
+
+
+
+
+/* ====== END footer section ======  */
+
+ @media screen and (max-width: 800px) {
+   #navbar {   
+    flex-direction: column;
+     margin-left: 0;
+  }
+}
+
+
+
